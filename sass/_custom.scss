@@ -1,6 +1,17 @@
 body {
   min-height: 100vh;
   border-bottom: 10px solid $primary;
+
+  &.page-thanks {
+    background-image: url('../images/bg-dt.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    @include media-breakpoint-down(md) {
+      background-image: url('../images/bg-mb.jpg');
+    }
+  }
 }
 
 // Line vertical
