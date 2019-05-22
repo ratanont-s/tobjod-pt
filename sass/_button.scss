@@ -1,5 +1,24 @@
 .btn {
-  &-twitter {
+
+  &-facebook,
+  &-twitter,
+  &-google {
+    position: relative;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-twitter,
+  &-secondary {
     color: color-yiq(theme-color("dark"));
+  }
+
+  &-pill {
+    border-radius: 10rem;
   }
 }
