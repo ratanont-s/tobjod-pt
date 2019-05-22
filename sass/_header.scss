@@ -1,0 +1,37 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: $zindex-sticky;
+  padding: 0.5rem 0;
+  border-top: 10px solid $primary;
+  border-bottom: 1px solid $primary;
+  background-color: white;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-logo {
+    img {
+      max-height: 50px;
+    }
+  }
+  &-tel {
+    color: $primary;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  @include media-breakpoint-up(lg) {
+    .container {
+      justify-content: space-between;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .header {
+      &-tel {
+        display: none;
+      }
+    }
+  }
+}
