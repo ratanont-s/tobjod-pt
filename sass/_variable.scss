@@ -6,10 +6,14 @@ $facebook: #3b5999;
 $twitter: #55acee;
 $google: #dd4b39;
 $yellow: #DBD536;
+$blue:#0E73BB;
+$indigo:#1C0861;
 
 $theme-colors: ("facebook": $facebook,
   "twitter": $twitter,
-  "google": $google);
+  "google": $google,
+  "blue": $blue,
+  "indigo": $indigo);
 
 // Font
 $font-family-base: "DB HelvethaicaMon";
