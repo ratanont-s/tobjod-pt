@@ -72,3 +72,49 @@ body {
   color: white;
   margin: 1.5rem 0;
 }
+
+select.form-control {
+  background: $input-bg url('../../dist/images/bg-select.svg') no-repeat right .75rem center;
+  background-size: auto;
+  appearance: none;
+}
+
+.form-check-sex {
+  .form-check {
+    &-input {
+      display: none;
+
+      &:checked~.form-check-label {
+        filter: grayscale(0);
+
+        span {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-label {
+      filter: grayscale(1);
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+
+      span {
+        margin-right: .5rem;
+        opacity: .5;
+
+        img {
+          width: 45px;
+          height: 45px;
+          object-fit: contain;
+        }
+      }
+
+      &:hover {
+        span {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

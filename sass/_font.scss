@@ -3,13 +3,38 @@
   src: url("../fonts/DB_HelvethaicaMon_X.ttf");
   font-weight: 400;
 }
+
 @font-face {
   font-family: "DB HelvethaicaMon";
   src: url("../fonts/DB_HelvethaicaMon_X_Med.ttf");
   font-weight: 500;
 }
+
 @font-face {
   font-family: "DB HelvethaicaMon";
   src: url("../fonts/DB_HelvethaicaMon_X_Bd.ttf");
   font-weight: 700;
+}
+
+@font-face {
+  font-family: "DB Adman X";
+  src: url("../fonts/DB_Adman_X_Li.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "DB Adman X";
+  src: url("../fonts/DB_Adman_X.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DB Adman X";
+  src: url("../fonts/DB_Adman_X_Bd.ttf");
+  font-weight: 500;
+}
+
+@mixin fontawesome {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
 }

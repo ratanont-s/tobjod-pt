@@ -8,27 +8,16 @@ $google: #dd4b39;
 $yellow: #DBD536;
 $blue:#0E73BB;
 $indigo:#1C0861;
+$sky:#f3f8fb;
 
 $theme-colors: ("facebook": $facebook,
   "twitter": $twitter,
   "google": $google,
   "blue": $blue,
-  "indigo": $indigo);
+  "indigo": $indigo,
+  "sky":$sky, );
 
 // Font
-$font-family-base: "DB HelvethaicaMon";
-$font-size-base: 1.5rem;
-
-// Borders
-$border-radius: 0.5rem;
-
-// Form
-$input-bg: #f1f1f1;
-$input-border-width: 0;
-$input-placeholder-color: #949497;
-$custom-select-indicator: url('../images/icon-select.png');
-$custom-select-bg-size: 22px 10px;
-$custom-checkbox-indicator-border-radius: 0;
-
-// Card
-$card-border-radius: 0;
+// $font-family-base: "DB HelvethaicaMon";
+$font-family-base: "DB Adman X";
+// $font-size-base: 1.5rem;

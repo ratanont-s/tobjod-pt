@@ -24,42 +24,45 @@
             <img src="./dist/images/banner-mb.jpg" alt="" class="banner-mobile" />
             <img src="./dist/images/banner-dt.jpg" alt="" class="banner-desktop" />
         </div>
-        <div class="container">
-            <h5 class="text-primary">รายละเอียดผลิตภัณฑ์</h5>
-            <ul class="list-check">
-                <li>Ut quo vel veritatis illo.</li>
-                <li>Eaque itaque et error quidem dicta aut.</li>
-                <li>Explicabo veniam sequi minima est in.</li>
-            </ul>
+        <div class="main-content" style="background-image: url('./dist/images/bg-example.jpg')">
+            <div class="container">
+                <h5 class="text-primary">รายละเอียดผลิตภัณฑ์</h5>
+                <ul class="list-check text-muted mb-lg-5">
+                    <li>เบิกเงินชดเชยรายได้รายวันระหว่างการรักษาพยาบาลจากอุบัติเหตุสูงสุด 365 วัน</li>
+                    <li>ผลประโยชน์รายเดือน x 36เดือน กรณีกรณีเสียชีวิตจากอุบัติเหตุ</li>
+                    <li>ให้ความคุ้มครองคุณตลอด 24 ชั่วโมงทั่วโลก</li>
+                </ul>
 
-            <h5 class="text-primary">คุณสมบัติหลัก</h5>
-            <ul class="list-check">
-                <li>Molestiae ullam aut ex.</li>
-                <li>Ut voluptatem nobis ab culpa iusto qui ducimus. Deserunt voluptatem fugiat tempore. Tempore
-                    molestiae id reiciendis aut recusandae repellendus sit. Voluptas consectetur consequatur atque sint
-                    blanditiis qui distinctio. Amet nobis voluptas autem molestiae.</li>
-                <li>Aut odio vitae.</li>
-            </ul>
+                <h5 class="text-primary">คุณสมบัติหลัก</h5>
+                <ul class="list-check text-muted mb-lg-5">
+                    <li>เหมาะสำหรับบุคคลทั่วไป อายุ 20-65 ปีบริบูรณ์</li>
+                    <li>ผลประโยชน์รายเดือน 36 เดือน กรณีกรณีเสียชีวิตจากอุบัติเหตุ  -
+                        เงินชดเชยรายได้รายวันระหว่างการรักษาพยาบาลจากอุบัติเหตุ สูงสุดวันละ 3,000 บาทต่อวัน และสูงสุด
+                        365
+                        วันต่ออุบัติเหตุ</li>
+                    <li>เบี้ยประกันเริ่มต้น 1,500 บาท</li>
+                </ul>
 
-            <h5 class="text-info">ไฮไลท์แผรความคุ้มครอง</h5>
-            <ul class="list-check">
-                <li>Voluptatem inventore in velit saepe rem et.</li>
-                <li>Ex porro doloremque id sed distinctio.</li>
-                <li>Non quia qui saepe laboriosam est.</li>
-            </ul>
+                <h5 class="text-indigo">ไฮไลท์แผรความคุ้มครอง</h5>
+                <ul class="text-muted mb-lg-5">
+                    <li>ให้ความคุ้มครองผลประโยชน์รายเดือน กรณีเสียชีวิตจากอุบัติเหตุสูงสุด 4,600,000 บาท</li>
+                    <li>เงินชดเชยรายได้รายวันระหว่างการรักษาพยาบาลจากอุบัติเหตุสูงสุดวันละ 3,000 บาทต่อวัน สูงสุด 365
+                        วันต่ออุบัติเหตุ</li>
+                    <li>ให้ความคุ้มครองทุนประกันการเสียชีวิตจากอุบัติเหตุสูงสุด 1,000,000 บาท</li>
+                </ul>
 
-            <h5 class="text-info">แผรความคุ้มครอง</h5>
-            <div class="card">
-                <h5 class="card-header bg-primary text-indigo" data-toggle="collapse" data-target="#collapseProtection">
-                    ความคุ้มครอง
-                </h5>
-                <div class="collapse show" id="collapseProtection">
-                    <div class="card-body">
+                <h5 class="text-indigo">แผรความคุ้มครอง</h5>
+                <div class="card card-product-detail">
+                    <a href="#collapseProtection" class="card-header bg-primary text-indigo h5 text-decoration-none"
+                        data-toggle="collapse" aria-expanded="true">
+                        ความคุ้มครอง
+                    </a>
+                    <div class="collapse show" id="collapseProtection">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table table-bordered text-indigo text-center mb-0">
                                 <thead>
                                     <tr>
-                                        <th rowspan="2">ความคุ้มครอง</th>
+                                        <th rowspan="2" width='300' class="bg-sky">ความคุ้มครอง</th>
                                         <th colspan="5">ทุนประกันภัย (บาท)</th>
                                     </tr>
                                     <tr>
@@ -71,27 +74,107 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr class="bg-blue text-left">
+                                        <td colspan="6">1. ผลประโยชนรายเดือน กรณีเสียชีวิตจากอุบัติเหตุ (ระยะเวลา 36
+                                            เดือน)</td>
+                                    </tr>
                                     <tr>
-                                        <td>1. </td>
+                                        <td class="bg-sky text-blue text-left">1.1 ผลประโยชน์จากอุบัติเหตุทั่วไป
+                                            (ต่อเดือน)
+                                            (รวมการถูกฆาตกรรม และทำร้ายรางกาย)</td>
+                                        <td>15,000</td>
+                                        <td>30,000</td>
+                                        <td>50,000</td>
+                                        <td>70,000</td>
+                                        <td>100,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">รวมผลประโยชน์
+                                            กรณีเสียชีวิตจากอุบัติเหตุทั่วไป (รวมการถูกฆาตกรรมและทำร้ายร่างกาย)</td>
+                                        <td>690,000</td>
+                                        <td>1,380,000</td>
+                                        <td>2,300,000</td>
+                                        <td>3,220,000</td>
+                                        <td>4,600,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">1.2 ผลประโยชนจากการขับขี่
+                                            หรือโดยสารรถจักรยานยนต (ต่อเดือน)</td>
+                                        <td>7,500</td>
+                                        <td>15,000</td>
+                                        <td>15,000</td>
+                                        <td>15,000</td>
+                                        <td>15,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">รวมผลประโยชน์</td>
+                                        <td>345,000</td>
+                                        <td>690,000</td>
+                                        <td>690,000</td>
+                                        <td>690,000</td>
+                                        <td>690,000</td>
+                                    </tr>
+
+                                    <tr class="bg-blue text-left">
+                                        <td colspan="6">2.
+                                            ผลประโยชน์การชดเชยรายได้รายวันระหว่างการเข้ารักษาพยาบาลเป็นผู้ป่วยใน
+                                            ในโรงพยาบาลจากอุบัติเหตุ</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">(สูงสุด 365 วันต่ออุบัติเหตุ
+                                            ขยายความคุ้มครองการขับขี่หรือโดยสารรถจักรยานยนต์)</td>
+                                        <td>700
+                                            <div>(ต่อวัน)</div>
+                                        </td>
+                                        <td>1,500
+                                            <div>(ต่อวัน)</div>
+                                        </td>
+                                        <td>2,000
+                                            <div>(ต่อวัน)</div>
+                                        </td>
+                                        <td>2,500
+                                            <div>(ต่อวัน)</div>
+                                        </td>
+                                        <td>3,000
+                                            <div>(ต่อวัน)</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="bg-blue text-left">
+                                        <td colspan="6">3. ผลประโยชน์การเสียชีวิต การสูญเสียอวัยวะสายตา
+                                            หรือทุพพลภาพถาวรสิ้นเชิง (อ.บ.1)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">3.1 อุบัติเหตุทั่วไป
+                                            (รวมการถูกฆาตกรรมและทำรายรางกาย)</td>
+                                        <td>150,000</td>
+                                        <td>300,000</td>
+                                        <td>500,000</td>
+                                        <td>700,000</td>
+                                        <td>1,000,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">3.2 การขับขี่หรือโดยสารรถจักรยานยนต์</td>
+                                        <td>75,000</td>
+                                        <td>150,000</td>
+                                        <td>150,000</td>
+                                        <td>150,000</td>
+                                        <td>150,000</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                </div>
 
-                <h5 class="card-header bg-primary text-indigo" data-toggle="collapse"
-                    data-target="#collapseInsurancePremium">เบี้ยประกัน</h5>
-                <div class="collapse show" id="collapseInsurancePremium">
-                    <div class="card-body">
+                    <a href="#collapseInsurancePremium"
+                        class="card-header bg-primary text-indigo h5 text-decoration-none" data-toggle="collapse"
+                        aria-expanded="true">เบี้ยประกัน</a>
+                    <div class="collapse show" id="collapseInsurancePremium">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table table-bordered text-indigo text-center mb-0">
                                 <thead>
                                     <tr>
-                                        <th rowspan="2">ความคุ้มครอง</th>
-                                        <th colspan="5">ทุนประกันภัย (บาท)</th>
-                                    </tr>
-                                    <tr>
+                                        <th width='300' class="bg-sky">เบี้ยประกันภัยรวมภาษีอากร (รายปี)</th>
                                         <th>แผน 1</th>
                                         <th>แผน 2</th>
                                         <th>แผน 3</th>
@@ -101,76 +184,75 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1. </td>
+                                        <td class="bg-sky text-blue text-left">ชั้นอาชีพ 1-2</td>
+                                        <td>1,500</td>
+                                        <td>2,000</td>
+                                        <td>4,200</td>
+                                        <td>5,800</td>
+                                        <td>8,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-sky text-blue text-left">ชั้นอาชีพ 3</td>
+                                        <td>2,300</td>
+                                        <td>4,200</td>
+                                        <td>6,600</td>
+                                        <td>8,900</td>
+                                        <td>12,500</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
+                        <div class="card-body">
+                            <h6 class="text-danger">หมายเหตุ</h6>
+                            <ul class="list-unstyled text-muted">
+                                <li>รวมผลประโยชน์ กรณีเสียชีวิตจากอุบัติเหตุทั่วไป เท่ากับ (ข้อ 1.1 X 36 เดือน) + ข้อ
+                                    3.1
+                                </li>
+                                <li>รวมผลประโยชน์ กรณีเสียชีวิตจากการขับขี่หรือโดยสารรถจักรยานยนต์ เท่ากับ ข้อ (1.2 x 36
+                                    เดือน) + ข้อ 3.2</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <h5 class="card-header bg-primary text-indigo" data-toggle="collapse" data-target="#collapseCondition">
-                    เงื่อนไข</h5>
-                <div class="collapse show" id="collapseCondition">
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th rowspan="2">ความคุ้มครอง</th>
-                                        <th colspan="5">ทุนประกันภัย (บาท)</th>
-                                    </tr>
-                                    <tr>
-                                        <th>แผน 1</th>
-                                        <th>แผน 2</th>
-                                        <th>แผน 3</th>
-                                        <th>แผน 4</th>
-                                        <th>แผน 5</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1. </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <a href="#collapseCondition" class="card-header bg-primary text-indigo h5 text-decoration-none"
+                        data-toggle="collapse" aria-expanded="true">
+                        เงื่อนไข</a>
+                    <div class="collapse show" id="collapseCondition">
+                        <div class="card-body pl-0">
+                            <ol class="text-muted">
+                                <li>ผู้ขอเอาประกันภัยที่มีอายุตั้งแต่ 20 ปี และไม่เกิน 65 ปีบริบูรณ์</li>
+                                <li>ผู้ขอเอาประกันภัยจะต้องมีถิ่นฐานอยู่ในประเทศไทย</li>
+                                <li>ผู้ขอเอาประกันภัยต้องมีสัญชาติไทย กรณีเป็นชาวต่างชาติ ต้องมีใบอนุญาตทำงานในประเทศไทย
+                                </li>
+                                <li>ผู้ขอเอาประกันภัยจะต้องไม่มีอวัยวะส่วนใดส่วนหนึ่งผิดปกติ พิการ บกพร่อง หรือทุพพลภาพ
+                                </li>
+                                <li>ชั้นอาชีพ 1-3</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <a href="#collapseDownload" class="card-header bg-primary text-indigo h5 text-decoration-none"
+                        data-toggle="collapse" aria-expanded="true">
+                        ดาวน์โหลด</a>
+                    <div class="collapse show" id="collapseDownload">
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo">
+                                        <span class="text-muted"><i class="far fa-file-pdf"></i></span>
+                                        Lead_Integration_Assistant.pdf
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
-                <h5 class="card-header bg-primary text-indigo" data-toggle="collapse" data-target="#collapseDownload">
-                    ดาวน์โหลด</h5>
-                <div class="collapse show" id="collapseDownload">
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th rowspan="2">ความคุ้มครอง</th>
-                                        <th colspan="5">ทุนประกันภัย (บาท)</th>
-                                    </tr>
-                                    <tr>
-                                        <th>แผน 1</th>
-                                        <th>แผน 2</th>
-                                        <th>แผน 3</th>
-                                        <th>แผน 4</th>
-                                        <th>แผน 5</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1. </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                <div class="text-center mt-5">
+                    <a href="#"
+                        class="btn btn-outline-primary badge-pill px-lg-3 mr-2 mr-lg-4">สนใจให้บริษัทติดต่อกลับ</a>
+                    <a href="#" class="btn btn-primary badge-pill px-lg-5">ซื้อเลย</a>
                 </div>
-            </div>
-
-            <div class="text-center mt-5">
-                <a href="#" class="btn btn-outline-primary badge-pill px-3 mr-4">สนใจให้บริษัทติดต่อกลับ</a>
-                <a href="#" class="btn btn-primary badge-pill px-5">ซื้อเลย</a>
             </div>
         </div>
     </main>

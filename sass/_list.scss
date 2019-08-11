@@ -1,0 +1,17 @@
+.list-check {
+    list-style-type: none;
+
+    li {
+        position: relative;
+
+        &::before {
+            content: '\f00c';
+            @include fontawesome;
+            font-size: small;
+            position: absolute;
+            top: .5rem;
+            left: -1.5rem;
+            color: $primary;
+        }
+    }
+}

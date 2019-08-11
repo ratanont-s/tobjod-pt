@@ -24,8 +24,204 @@
             <img src="./dist/images/banner-mb.jpg" alt="" class="banner-mobile" />
             <img src="./dist/images/banner-dt.jpg" alt="" class="banner-desktop" />
         </div>
-        <div class="container">
-
+        <div class="main-content" style="background-image: url('./dist/images/bg-example.jpg')">
+            <div class="container">
+                <form action="./user-detail.html" class="form-user-detaul">
+                    <h5 class="text-blue mb-0">
+                        ข้อมูลผู้เอาประกัน
+                    </h5>
+                    <p class="small text-danger font-italic">* ช่องที่จำเป็นต้องกรอก</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-row">
+                                <div class="col-lg-4 form-group">
+                                    <label for="">คำนำหน้าชื่อ <span class="text-danger">*</span></label>
+                                    <select name="" id="" class="form-control">
+                                        <option selected>โปรดระบุ</option>
+                                        <option value="">นาย</option>
+                                        <option value="">นาง</option>
+                                        <option value="">นางสาว</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-8 form-group">
+                                    <label for="">ชื่อผู้เอาประกัน <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="โปรดระบุ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">นามสกุล <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="โปรดระบุ">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">สัญชาติ <span class="text-danger">*</span></label>
+                            <select name="" id="" class="form-control">
+                                <option selected>โปรดระบุ</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 form-group">
+                            <label for="">เลขที่ประจำตัวประชาชน/หมายเลข Passport <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="โปรดระบุ">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-row">
+                                <div class="col-lg-8 form-group">
+                                    <label for="">วันเกิด <span class="text-danger">*</span></label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-lg-4 form-group">
+                                    <label for="">อายุ <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="โปรดระบุ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">อาชีพ <span class="text-danger">*</span></label>
+                            <select name="" id="" class="form-control">
+                                <option selected>โปรดระบุ</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 form-group">
+                            <label for="">เพศ <span class="text-danger">*</span></label>
+                            <div class="form-row">
+                                <div class="col-6 form-check form-check-sex">
+                                    <input class="form-check-input" type="radio" name="sexRadios" id="sexRadios1"
+                                        value="ชาย" checked>
+                                    <label class="form-check-label" for="sexRadios1">
+                                        <span>
+                                            <img src="./dist/images/male.svg" alt="ชาย">
+                                        </span>
+                                        ชาย
+                                    </label>
+                                </div>
+                                <div class="col-6 form-check form-check-sex">
+                                    <input class="form-check-input" type="radio" name="sexRadios" id="sexRadios2"
+                                        value="หญิง">
+                                    <label class="form-check-label" for="sexRadios2">
+                                        <span>
+                                            <img src="./dist/images/female.svg" alt="หญิง">
+                                        </span>
+                                        หญิง
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">เพศ <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" placeholder="โปรดระบุ">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">เพศ <span class="text-danger">*</span></label>
+                            <input type="tel" class="form-control" placeholder="08X XXX XXXX">
+                        </div>
+                    </div>
+                    <div class="card card-body card-protection form-group my-lg-5">
+                        <div class="row justify-content-lg-center">
+                            <div class="col-lg-4 form-group">
+                                <label for="">วันที่เริ่มคุ้มครอง <span class="text-danger">*</span></label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-lg-4 form-group">
+                                <label for="">วันที่สิ้นสุดคุ้มครอง <span class="text-danger">*</span></label>
+                                <input type="date" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="text-blue mb-0">
+                        ที่อยู่ผู้เอาประกันภัย
+                    </h5>
+                    <p class="small text-danger font-italic">* ช่องที่จำเป็นต้องกรอก</p>
+                    <div class="row">
+                        <div class="col-lg-4 form-group">
+                            <label for="">เลขที่ <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="เลขที่">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-row">
+                                <div class="col-6 form-group">
+                                    <label for="">หมู่</label>
+                                    <input type="text" class="form-control" placeholder="หมู่">
+                                </div>
+                                <div class="col-6 form-group">
+                                    <label for="">ชั้น</label>
+                                    <input type="text" class="form-control" placeholder="ชั้น">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">หมู่บ้าน/อาคาร</label>
+                            <input type="text" class="form-control" placeholder="หมู่บ้าน">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">ซอย</label>
+                            <input type="text" class="form-control" placeholder="ซอย">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">ถนน</label>
+                            <input type="text" class="form-control" placeholder="ถนน">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">จังหวัด <span class="text-danger">*</span></label>
+                            <select name="" id="" class="form-control">
+                                <option selected>จังหวัด</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">เขต/อำเภอ <span class="text-danger">*</span></label>
+                            <select name="" id="" class="form-control">
+                                <option selected>เขต/อำเภอ</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">แขวง/ตำบล <span class="text-danger">*</span></label>
+                            <select name="" id="" class="form-control">
+                                <option selected>แขวง/ตำบล</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <label for="">รหัสไปรษณีย์ <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="รหัสไปรษณีย์">
+                        </div>
+                    </div>
+                    <div class="form-check form-group my-lg-5 text-lg-center">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            ข้าพเจ้าขอรับรองว่ารายละเอียดต่างๆ ข้างต้นนี้ถูกต้องและสมบูรณ์
+                            ข้าพเจ้าตกลงที่จะให้คำขอเอาประกันภัยนี้เป็นมูลฐานของสัญญาระหว่างข้าพเจ้าและบริษัท
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary badge-pill mb-3 mb-lg-5">ตรวจสอบข้อมูล</button>
+                        <p class="small font-italic text-muted">
+                            *ผู้ซื้อประกันภัยออนไลน์
+                            ควรทำความเข้าใจในรายละเอียดความคุ้มครองและเงื่อนไขก่อนการตัดสินใจทำประกันภัยทุกครั้ง
+                            <span class="d-lg-block">
+                                เพื่อให้ได้รับความคุ้มครองที่เหมาะสมกับความเสี่ยงและความสามรถในการชำระของตัวท่าน*
+                            </span>
+                        </p>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
 </body>

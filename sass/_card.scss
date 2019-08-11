@@ -115,3 +115,35 @@
         }
     }
 }
+
+.card-product-detail {
+    border-radius: 0;
+
+    .card-header {
+        position: relative;
+        border-radius: 0;
+
+        &::before {
+            content: '\f067';
+            @include fontawesome;
+            font-size: small;
+            color: $gray-300;
+            position: absolute;
+            top: 50%;
+            right: 1.25rem;
+            transform: translateY(-50%);
+
+        }
+
+        &[aria-expanded="true"] {
+            &::before {
+                content: '\f068';
+            }
+        }
+    }
+}
+
+.card-protection {
+    border-color: $primary;
+    background-color: rgba($primary, .15);
+}
