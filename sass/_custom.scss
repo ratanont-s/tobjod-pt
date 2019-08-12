@@ -77,6 +77,7 @@ select.form-control {
   background: $input-bg url('../../dist/images/bg-select.svg') no-repeat right .75rem center;
   background-size: auto;
   appearance: none;
+  padding-right: 2.25rem;
 }
 
 .form-check-sex {
@@ -116,5 +117,28 @@ select.form-control {
         }
       }
     }
+  }
+}
+
+.form-control {
+  &[type='email'] {
+    background: $input-bg url('../../dist/images/bg-email.svg') no-repeat left .75rem center;
+    background-size: auto;
+    appearance: none;
+    padding-left: 2.25rem;
+  }
+
+  &[type='date'] {
+    background: $input-bg url('../../dist/images/bg-date.svg') no-repeat left .75rem center;
+    background-size: auto;
+    appearance: none;
+    padding-left: 2.25rem;
+  }
+
+  &[type='tel'] {
+    background: $input-bg url('../../dist/images/bg-tel.svg') no-repeat left .75rem center;
+    background-size: auto;
+    appearance: none;
+    padding-left: 2.25rem;
   }
 }
